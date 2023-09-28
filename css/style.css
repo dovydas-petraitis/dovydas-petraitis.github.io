@@ -1,0 +1,123 @@
+/* Base */
+
+body {
+    margin:0
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-additional {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.5;
+    font-size: 20px;
+}
+
+header {
+    padding:200px 50px 50px 50px;
+    height: 500px;
+    background-image: url("../img/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+.info {
+    display:inline-block;
+    max-width: 50%;
+}
+
+h3 {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main {
+    text-align: center;
+}
+
+.gallery {
+    width:1000px;
+    display: inline-block;
+}
+
+.image {
+  
+    display: inline-block;
+    position: relative;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.image:hover {
+  
+    display: inline-block;
+    position: relative;
+    top:10px;
+}
+
+.text-block {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    padding-top:10px;
+    padding-bottom:10px;
+    bottom: 22px;
+    width: 100%;
+    background-color: rgba(69, 69, 69, 0.8);
+    color: white;
+  }
+
+
+ .link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color:rgb(76, 183, 255);
+    padding:15px 30px 15px 30px;
+    text-decoration: none;
+    border:solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(76, 183, 255);
+  }
+
+  .link-active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(76, 183, 255);
+    color:white;
+    padding:15px 30px 15px 30px;
+    text-decoration: none;
+    border:solid;
+    border-width: 1px;
+    border-radius: 50px;
+  }
+
+  .link:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(76, 183, 255);
+    color:white;
+    padding:15px 30px 15px 30px;
+    text-decoration: none;
+    border:solid;
+    border-width: 1px;
+    border-radius: 50px;
+  }
+
+  .second-gallery {
+    margin-top:30px;
+    width:1000px;
+    display: inline-block;
+    padding:20px
+}
+
+.other-image {
+    display: inline-block;
+    padding:5px
+}
+  
